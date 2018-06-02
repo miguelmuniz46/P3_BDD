@@ -28,3 +28,8 @@ def step_impl(step):
 def step_impl(step):
     pagina = world.driver.find_element(By.NAME, "pagina").text
     assert not pagina
+
+@step('I see the db result "([^"]*)"')
+def step_impl(step, resultado):
+    res = world.driver.find_element(By.NAME, "base_datos").text
+    assert_true(res, resultado)
