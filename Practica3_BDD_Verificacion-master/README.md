@@ -7,7 +7,7 @@ Esta web deberá de tener un formulario muy sencillo con:
 -   Un charfield en el que podrás escribir la URL de la página que se quiere aplicar el contador
 -   Dos botones:
     -   Reset: borra todo lo que haya en el charfield
-    -   Execute: Arranca el proceso cálculo de palabras de todos los textos de la URL que sean <p>▪
+    -   Execute: Arranca el proceso cálculo de palabras de todos los textos de la URL que sean "<p>"
 -   Un textfield/lista que muestra las palabras y el número de apariciones de las mismas
 -   Un textfield/lista que muestra las palabras y el número de apariciones de las mismas que se encuentran en BBDD a lo largo del día
 
