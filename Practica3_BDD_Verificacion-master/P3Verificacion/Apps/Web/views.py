@@ -89,7 +89,7 @@ def consultar_contador_dia(bbdd, fecha_actual):
             existe = True
 
     if(existe):
-        total = bbdd.zrevrangebyscore(fecha_actual, 2000, 0, None, None, True, int)
+        total = bbdd.zrevrangebyscore(fecha_actual, "+inf", 0, None, None, True, int)
 
         dicResultado = {}
 
