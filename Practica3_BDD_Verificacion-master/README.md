@@ -31,6 +31,7 @@ En cuanto a la base de datos hemos decidido implementar una base de datos no rel
  8. beautifulsoup4
  9. redis
  10. DateTime
+ 11. requests
     
 ## Para que funcione:
 - Es necesario el archivo "chromedriver.exe", este archivo se encuentra ya incluido en el proyecto y corresponde a una arquitectura win32, si tu SO no es windows, entra en el [link], descarga la version que se ajuste a tu ordenador e incluye este archivo en la siguiente ruta
